@@ -1,0 +1,213 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: black;
+	
+	
+}
+
+/* -------------  LOGO DU TOP------------*/
+.logotop {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logotop img {
+	width: 100px;
+	height: 75px;
+}
+
+/* -------------BARRE DE NAVIGATION------------ */
+
+ul {
+	background: red;
+	display: flex;
+	justify-content: space-around;
+	padding: 4px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: small;
+}
+
+ul li {
+	list-style: none;
+}
+
+ul li a {
+	color: white;
+	text-decoration: none;
+	transition: ease-in-out 0.6s;
+}
+
+ul li a:hover {
+	color: #000;
+}
+
+
+						/* PHRASE ET PHOTO INTRO */
+
+
+.socialpub h1 {
+	font-family: Impact;
+	font-size: smaller;
+}
+
+.news {
+	color: greenyellow;
+}
+
+.forget {
+	text-align: center;
+	color: #D8000C;
+	font-size: smaller;
+}
+							/* IMAGE ACCUEIL HOODIE */
+
+.welcome {
+	background: url(./Source/hoodies/hoodie-v2.jpg) no-repeat center;
+	background-size: contain;
+	height: 300px;
+}
+.position {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* POSITION IMAGE ACCUEIL */
+
+.position h1 {
+
+	margin-top: 155px;
+	color: #fff;
+	font-size: 21px;
+	text-transform: uppercase;
+	text-shadow: 2px 2px #333;
+	
+}
+		/* 3 PHOTOS FRANCKY */
+
+.communityPicture {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 12px;
+	margin: 21px;
+}
+.communityPicture img {
+	width: 100%;
+	height: auto;
+	max-width: 210px;
+	object-fit: cover;
+	border: solid 1px #D8000C;
+}
+.container-shop {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 10px;
+}
+.container-shop img {
+	width: 100%;
+	max-width: 150px;
+	height: auto;
+	border: solid 1px #D8000C;
+}
+
+/* @media only screen and (max-width: 600px) {
+	.position h1 {
+		font-size: 16px;
+		text-align: center;
+		text-shadow: 1px 1px 1px#000;
+	}
+} */
+
+					/* GALLERY */
+
+.gallery {
+	margin-top: 21px;
+}
+
+.gallery-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 10px;
+}
+.gallery-container img {
+	width: 100%;
+	max-width: 150px;
+	height: auto;
+	border: solid 1px white;
+}
+.main h1 {
+	font-weight: 300;
+	font-size: 18px;
+	padding-top: 18px;
+	padding-left: 81px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.contact {
+	display: flex;
+	flex-wrap: wrap;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.form-contact {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0 auto;
+}
+.btn {
+	text-align: center;
+	border: solid 2px #D8000C;
+	box-shadow: 2px 2px #D8000C;
+	border-radius: 18px;
+	color:#fff;
+	text-decoration: none;
+	width: 150px;
+	padding: 2px;
+	font-size: 15px;
+	transition: ease-in-out 0.5s;
+	margin-top: 10px;
+}
+.btn:hover {
+	background-color: #D8000C;
+}
+
+.name label,
+.email label,
+.message label {
+color: #fff;
+font-size: 12px;
+font-weight: 200;
+}
+.name input,
+.email input,
+.message textarea {
+	background: none;
+	border: none;
+	border-bottom: solid 2px #D8000C ;
+	width: 100%;
+	color:#fff;
+} 
+.name input:focus,
+.email input:focus,
+.message textarea:focus {
+	outline: none;
+}
+
+.message textarea {
+	height: 150px;
+}
+ @media only screen and (max-width: 600px) {
+	.position h1 {
+		font-size: 16px;
+		text-align: center;
+		text-shadow: 1px 1px 1px#000;
+	}
+} 
